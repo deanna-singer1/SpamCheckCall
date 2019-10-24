@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang = 'en-US'>
+    <header>
+        <title>Caller Spam Check</title>
+        <meta charset="utf-8"> 
+        <link href = "Main.css" rel = stylesheet type = text/css media = screen>
+        <script src = "Main.js"></script>
+    </header>
+    <body>
+        <h1>Check to see if the caller is a spam</h1>
+        <form onsubmit = "return false;">
+            <label>
+                Please Enter Phone Number:
+            <input type = text id = enterNum placeholder="012-345-6789"/>
+            </label>
+            <button onclick="numCheck;">Check</button>
+            <output id="result"></output>
+        </form>
+    </body>
+</html>
